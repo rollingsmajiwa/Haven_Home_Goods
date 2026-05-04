@@ -10,6 +10,7 @@ body {
 main {
     display: block;
 }
+
 .navbar ul {
     text-align: center;
     border: 1px solid rgb(219, 209, 209);
@@ -43,8 +44,29 @@ main {
     gap: 20px;
 }
 .hero {
-    text-align: center;
+   
+   text-align: center;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0, 0.3)) url(assets/images/home1.jpg);
+   background-size: cover;
+   background-position: center bottom;
+   color: white;
+   height: 60vh;
+   background-repeat: no-repeat;
+   
+
     
 }
+.content-content {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+    color: #333333;
+    max-width: 500px;
+}
+aside {
+    margin-top: 60px;
+}
+
 
 
