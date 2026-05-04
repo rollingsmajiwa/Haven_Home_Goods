@@ -5,18 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haven Home Goods | Quality Living</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <ul>
-                <div>Haven Home Goods</div>
-                <li><a href="#living">Living</a></li>
-                <li><a href="#kitchen">Kitchen</a></li>
-                <li><a href="#decor">Decor</a></li>
+                <div><h1>Haven Home Goods</h1></div>
+                <li><a href="living.html">Living</a></li>
+                <li><a href="kitchen.html">Kitchen</a></li>
+                <li><a href="decor.html">Decor</a></li>
             </ul>
         </nav>
     </header>
-    
+    <main>
+
+        <div class="content-wrapper">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Make Space for Peace</h1>
+                    <p>Handcrafted furnitures and decor designed for the modern home.</p>
+                    <a href="#shop" class="cta">Explore Collection</a>
+                </div>
+            </section>
+            <aside>
+                    <h2>Categories</h2>
+                    <div class="filter-group">
+                        <ul>
+                            <li><a href="#">All Collection</a></li>
+                            <li><a href="#">Ceramics</a></li>
+                            <li><a href="#">Wooden Furniture</a></li>
+                            <li><a href="#">Textiles</a></li>
+                        </ul>
+                    </div>
+                    <div class="filter-group">
+                        <h2>Price Range</h2>
+                        <input type="range" min="0" max="100000" value="500">
+                    </div>
+                            </aside>
+                    <section class="product-grid">
+                    <article>
+                        <div class="image-container">
+                            <img src="assets/images/ceramic.jpg" alt="ceramic photo">
+                            <span>New</span>
+                            <button class="Quick-view-btn">Quick View</button>
+                        </div>
+                        <div class="product-information">
+                            <h3>Artisan Ceramic Vase</h3>
+                            <p>Price: <span>ksh. 8000</span></p>
+                            <div class="rating">
+                                <i data-lucide="star"></i>
+                                <i data-lucide="star"></i>
+                                <i data-lucide="star"></i>
+                                <i data-lucide="star"></i>
+                                <i data-lucide="star"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="image_container">
+                            <img src="assets/images/mug.jpg" alt="stone_mugs">
+                            <div class="product-information">
+                                <h3>Stone Grey Mugs (Set of 3)</h3>
+            
+                                    <p>Price: <span>ksh. 300</span></p>
+                                    <div class="rating">
+                                        <i data-lucide="star"></i>
+                                        <i data-lucide="star"></i>
+                                        <i data-lucide="star"></i>
+                                        <i data-lucide="star"></i>
+                                        <i data-lucide="star"></i>
+                                    </div>
+            
+                            </div>
+                        </div>
+                    </article>
+                    <article class="sofa">
+                        <div class="img-content">
+                            <img src="assets/images/sofa2.jpg" alt="fabric sofa">
+                            <h3>Fabric Sofa</h3>
+                             <p>Price: <span>ksh. 25000</span></p>
+                             <div class="rating">
+                                            <i data-lucide="star"></i>
+                                            <i data-lucide="star"></i>
+                                            <i data-lucide="star"></i>
+                                            <i data-lucide="star"></i>
+                                            <i data-lucide="star"></i>
+                                        </div>
+                        </div>
+                        <div class="img-content">
+                            <img src="assets/images/sofa1.jpg" alt="gray sofa-pillow">
+                            <h3>Grey Fabric Sofa</h3>
+                            <p>Price: <span>ksh. 30000</span></p>
+                            <div class="rating">
+                                            <i data-lucide="star"></i>
+                                            <i data-lucide="star"></i>
+                                            <i data-lucide="star"></i>
+                                            <i data-lucide="star"></i>
+                                            <i data-lucide="star"></i>
+                                        </div>
+                        </div>
+                        <div class="img-content">
+                            <img src="assets/images/pillow.jpg" alt="sofa-pillow">
+                            <h3>Linen Throw Pillow</h3>
+                            <p>Price: <span>ksh. 1000</span></p>
+                               <div class="rating">
+                                            <i data-lucide="star"></i>
+                                            <i data-lucide="star"></i>
+                                            <i data-lucide="star"></i>
+                                            <i data-lucide="star"></i>
+                                            <i data-lucide="star"></i>
+                                        </div>
+                        </div>
+                    </article>
+                            </section>
+                </div>
+        </div>
+    </main>
+    <script>
+        lucide.createIcons();
+    </script>
+    <footer>
+        <p>&copy; 2026 Haven Home Goods. Designed for Quality.</p>
+    </footer>
 </body>
 </html>
