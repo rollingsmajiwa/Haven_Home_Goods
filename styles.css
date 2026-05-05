@@ -67,12 +67,40 @@ main {
     border: 1px solid transparent;
 }
 .hero-content .cta:hover {
-    transform: rotateX(180deg);
+    transform: translateY(3px);
     background-color: transparent;
     color: black;
     border: 1px solid #1a1a1a;
 }
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
 
+}
+.footer-links a {
+    text-decoration: none;
+    color: #444;
+    font-size: 0.9rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+.footer-bottom p {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.main-footer {
+    background-color: #f9f9f9;
+    border-top: 1px solid black;
+    padding: 40px;
+    margin-top: 80px;
+}
 
 
 
