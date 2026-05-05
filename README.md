@@ -58,8 +58,8 @@ git push origin feature/YourFeatureName
 
 a. Clone this repository on your local machine.
 ```bash
-git clone https://github.com/rollingsmajiwa/TECHGADGET_COMPARISSON.git
-cd TECHGADGET_COMPARISSON.git
+git clone https://github.com/rollingsmajiwa/Haven_Home_Goods.git
+cd Haven_Home_Goods.git
 ```
 
 b. Ensure you have the media files.
@@ -68,14 +68,14 @@ c. Open 'index.html' in any browser.
 
 ### 8. Screenshots
 
-![Desktop View](assets/images/image.jpg)
+![Desktop View](assets/images/screenshot7.jpg)
 
 ### 9. Author
 **Rollings Majiwa**
 
-* GitHub: [https://https://github.com/rollingsmajiwa]
+* GitHub: [https://github.com/rollingsmajiwa]
 * Email: [rollingsmajiwa@gmail.com]
 
 ### Get started
-Interested in the code behind TechGadget Comparison? You can reach me directly via my profile or open an issue for collaboration.
+Interested in the code behind Haven Goods Home? You can reach me directly via my profile or open an issue for collaboration.
 [**Visit my Github profile**](https://github.com/rollingsmajiwa)
