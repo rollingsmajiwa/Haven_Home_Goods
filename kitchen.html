@@ -18,6 +18,27 @@
         object-fit: cover;
 
      }
+     .img-content {
+    background-color: rgb(236, 235, 235);
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.3s;
+
+}
+
+.img-content img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    
+}
+.img-content:hover {
+    transform: translateY(-10px); border-color: gray;
+}
+
     </style>
 
 </head>
@@ -26,16 +47,20 @@
         <h1 style="text-align: center;margin-top: 50px;">Kitchen Essentials</h1>
         <div class="product-grid">
         <div class="product">
-            <img src="assets/images/bowl.jpg" alt="">
-            <h3>Glass Bowl</h3>
-            <p>Price: <span>Ksh. 45000</span></p>
-            <button class="buy-btn">Add to Cart</button>
+            <div class="img-content">
+                <img src="assets/images/bowl.jpg" alt="">
+                <h3>Glass Bowl</h3>
+                <p>Price: <span>Ksh. 45000</span></p>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
         </div>
         <div class="product">
-            <img src="assets/images/wooden.jpg" alt="">
-            <h3>Wooden Spoon</h3>
-            <p>Price: <span>Ksh. 5000</span></p>
-            <button class="buy-btn">Add to Cart</button>
+            <div class="img-content">
+                <img src="assets/images/wooden.jpg" alt="">
+                <h3>Wooden Spoon</h3>
+                <p>Price: <span>Ksh. 5000</span></p>
+                <button class="buy-btn">Add to Cart</button>
+            </div>
                 </div>
         </div>
 
